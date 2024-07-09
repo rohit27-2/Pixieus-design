@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body> 
+  <div class="flex justify-between bg-black">
+    <div class="flex font-poppins font-black px-8 mt-2 text-3xl text-white">
+        
+        <img style="max-height: 70px;" src="logo-bg.png" alt="">
+        <h1 class="mt-4">PIXIEUS</h1>
+    </div>
+    <div>
+        <nav class="font-poppins p-8 mr-8 text-sm flex gap-10 text-white">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Previous Events</a>
+            <a href="#">FAQs</a>
+        </nav>
+    </div>
+  </div>
+  <!-- Hero -->
+  <section class="flex items-start justify-around p-5 m-5">
+    <div class="p-10 flex-col justify-items-start">
+        <h1 class="font-poppins font-extrabold text-5xl md:text-7xl text-gray-900 dark:text-white">
+            Lorem ipsum dolor sit amet,<span class="text-purple-700">consectetur</span><br>  adipiscing elit, sed do
+        </h1>
+        <p class="mt-16 font-normal">
+            Experience the world of LED's with us. <br> Entertainment Redefined. 
+        </p>
+        <div class="mt-6 max-w-md mx-auto">   
+            <form>
+                <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+                <div class="relative">
+                    <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                        <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g opacity="0.5">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.8221 3.10179C15.9955 3.10179 17.1242 3.55704 17.9546 4.37391C18.7859 5.18907 19.2505 6.28854 19.2505 7.43954V14.2253C19.2505 16.6218 17.2642 18.5631 14.8221 18.5631H6.17799C3.73586 18.5631 1.75049 16.6218 1.75049 14.2253V7.43954C1.75049 5.04304 3.72711 3.10179 6.17799 3.10179H14.8221ZM16.2142 8.71939L16.2842 8.65068C16.4934 8.40158 16.4934 8.04081 16.2746 7.79172C16.153 7.66373 15.9859 7.58557 15.8117 7.56839C15.628 7.55894 15.453 7.61992 15.3209 7.74018L11.3755 10.8324C10.868 11.2456 10.1409 11.2456 9.6255 10.8324L5.68799 7.74018C5.41586 7.54262 5.03961 7.56839 4.81299 7.80031C4.57674 8.03223 4.55049 8.40158 4.75086 8.65927L4.86549 8.77093L8.84675 11.8202C9.33675 12.1982 9.93087 12.4043 10.553 12.4043C11.1734 12.4043 11.778 12.1982 12.2671 11.8202L16.2142 8.71939Z" fill="#191825" fill-opacity="0.75"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <input type="search" id="default-search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your email" required />
+                    <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get Started</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div>
+        <img class="h-auto max-w-xl rounded-lg" src="heroImage.svg" alt="">
+    </div>
+  </section>
+  <!-- About Us -->
+   <section class="p-8 mt-12">
+    <div class="flex justify-center">
+        <h1 class="font-poppins font-extrabold text-5xl md:text-7xl text-purple-700 dark:text-white">
+            About Us
+        </h1>
+    </div>
+    <div class="flex justify-center p-5 mt-8">
+        <img class="h-auto max-w-xl rounded-lg" src="aboutUs.svg" alt="">
+    </div>
+    <div class="flex justify-center">
+        <p class="mt-16 text-5xl font-bold">
+            Lorem ipsum dolor sit amet, <br><span class="text-purple-700">consectetur</span> adipiscing elit, <br> sed do         </p>
+    </div>
+    
+   </section>
+
+    <!-- Services -->
+     <section>
+        <div class="flex justify-center p-5 mt-8">
+            <h1 class="font-poppins font-extrabold text-5xl md:text-7xl text-purple-700 dark:text-white">
+                Services
+            </h1>
+        </div>
+        <div class="p-4 m-5 mt-8 flex justify-around">
+            <img style="width: 19rem;" class="rounded-lg" src="heroImage.svg" alt="">
+            <img style="width: 19rem;" class="rounded-lg" src="heroImage.svg" alt="">
+            <img style="width: 19rem;" class="rounded-lg" src="heroImage.svg" alt="">
+
+
+
+        </div>
+     </section>
+  <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+</body>
+</html>
