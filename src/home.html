@@ -1,91 +1,416 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-</head>
-<body> 
-  <div class="flex justify-between bg-black">
-    <div class="flex font-poppins font-black px-8 mt-2 text-3xl text-white">
-        
-        <img style="max-height: 70px;" src="logo-bg.png" alt="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="flex justify-between bg-black">
+      <div class="flex font-poppins font-black px-8 mt-2 text-3xl text-white">
+        <img style="max-height: 70px" src="logo-bg.png" alt="" />
         <h1 class="mt-4">PIXIEUS</h1>
-    </div>
-    <div>
+      </div>
+      <div>
         <nav class="font-poppins p-8 mr-8 text-sm flex gap-10 text-white">
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Services</a>
-            <a href="#">Previous Events</a>
-            <a href="#">FAQs</a>
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Services</a>
+          <a href="#">Previous Events</a>
+          <a href="#">FAQs</a>
         </nav>
+      </div>
     </div>
-  </div>
-  <!-- Hero -->
-  <section class="flex items-start justify-around p-5 m-5">
-    <div class="p-10 flex-col justify-items-start">
-        <h1 class="font-poppins font-extrabold text-5xl md:text-7xl text-gray-900 dark:text-white">
-            Lorem ipsum dolor sit amet,<span class="text-purple-700">consectetur</span><br>  adipiscing elit, sed do
+    <!-- Hero -->
+    <section id="Home" class="flex items-start justify-around p-5 m-5">
+      <div class="p-10 flex-col justify-items-start">
+        <h1
+          class="font-poppins font-extrabold text-5xl md:text-7xl text-gray-900 dark:text-white"
+        >
+          Lorem ipsum dolor sit amet,<span class="text-purple-700"
+            >consectetur</span
+          ><br />
+          adipiscing elit, sed do
         </h1>
         <p class="mt-16 font-normal">
-            Experience the world of LED's with us. <br> Entertainment Redefined. 
+          Experience the world of LED's with us. <br />
+          Entertainment Redefined.
         </p>
-        <div class="mt-6 max-w-md mx-auto">   
-            <form>
-                <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
-                <div class="relative">
-                    <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                        <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g opacity="0.5">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.8221 3.10179C15.9955 3.10179 17.1242 3.55704 17.9546 4.37391C18.7859 5.18907 19.2505 6.28854 19.2505 7.43954V14.2253C19.2505 16.6218 17.2642 18.5631 14.8221 18.5631H6.17799C3.73586 18.5631 1.75049 16.6218 1.75049 14.2253V7.43954C1.75049 5.04304 3.72711 3.10179 6.17799 3.10179H14.8221ZM16.2142 8.71939L16.2842 8.65068C16.4934 8.40158 16.4934 8.04081 16.2746 7.79172C16.153 7.66373 15.9859 7.58557 15.8117 7.56839C15.628 7.55894 15.453 7.61992 15.3209 7.74018L11.3755 10.8324C10.868 11.2456 10.1409 11.2456 9.6255 10.8324L5.68799 7.74018C5.41586 7.54262 5.03961 7.56839 4.81299 7.80031C4.57674 8.03223 4.55049 8.40158 4.75086 8.65927L4.86549 8.77093L8.84675 11.8202C9.33675 12.1982 9.93087 12.4043 10.553 12.4043C11.1734 12.4043 11.778 12.1982 12.2671 11.8202L16.2142 8.71939Z" fill="#191825" fill-opacity="0.75"/>
-                            </g>
-                        </svg>
-                    </div>
-                    <input type="search" id="default-search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter your email" required />
-                    <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get Started</button>
-                </div>
-            </form>
+        <div class="mt-6 max-w-md mx-auto">
+          <form>
+            <label
+              for="default-search"
+              class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+              >Search</label
+            >
+            <div class="relative">
+              <div
+                class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+              >
+                <svg
+                  width="21"
+                  height="22"
+                  viewBox="0 0 21 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g opacity="0.5">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M14.8221 3.10179C15.9955 3.10179 17.1242 3.55704 17.9546 4.37391C18.7859 5.18907 19.2505 6.28854 19.2505 7.43954V14.2253C19.2505 16.6218 17.2642 18.5631 14.8221 18.5631H6.17799C3.73586 18.5631 1.75049 16.6218 1.75049 14.2253V7.43954C1.75049 5.04304 3.72711 3.10179 6.17799 3.10179H14.8221ZM16.2142 8.71939L16.2842 8.65068C16.4934 8.40158 16.4934 8.04081 16.2746 7.79172C16.153 7.66373 15.9859 7.58557 15.8117 7.56839C15.628 7.55894 15.453 7.61992 15.3209 7.74018L11.3755 10.8324C10.868 11.2456 10.1409 11.2456 9.6255 10.8324L5.68799 7.74018C5.41586 7.54262 5.03961 7.56839 4.81299 7.80031C4.57674 8.03223 4.55049 8.40158 4.75086 8.65927L4.86549 8.77093L8.84675 11.8202C9.33675 12.1982 9.93087 12.4043 10.553 12.4043C11.1734 12.4043 11.778 12.1982 12.2671 11.8202L16.2142 8.71939Z"
+                      fill="#191825"
+                      fill-opacity="0.75"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <input
+                type="search"
+                id="default-search"
+                class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Enter your email"
+                required
+              />
+              <button
+                type="submit"
+                class="text-white absolute right-2.5 bottom-2.5 bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Get Started
+              </button>
+            </div>
+          </form>
         </div>
-    </div>
-    <div>
-        <img class="h-auto max-w-xl rounded-lg" src="heroImage.svg" alt="">
-    </div>
-  </section>
-  <!-- About Us -->
-   <section class="p-8 mt-12">
-    <div class="flex justify-center">
-        <h1 class="font-poppins font-extrabold text-5xl md:text-7xl text-purple-700 dark:text-white">
-            About Us
+      </div>
+      <div>
+        <img class="h-auto max-w-xl rounded-lg" src="heroImage.svg" alt="" />
+      </div>
+    </section>
+    <!-- About Us -->
+    <section id="AboutUs" class="p-8 mt-12">
+      <div class="flex justify-center">
+        <h1
+          class="font-poppins font-extrabold text-5xl md:text-7xl text-purple-700 dark:text-white"
+        >
+          About Us
         </h1>
-    </div>
-    <div class="flex justify-center p-5 mt-8">
-        <img class="h-auto max-w-xl rounded-lg" src="aboutUs.svg" alt="">
-    </div>
-    <div class="flex justify-center">
+      </div>
+      <div class="flex justify-center p-5 mt-8">
+        <img class="h-auto max-w-xl rounded-lg" src="aboutUs.svg" alt="" />
+      </div>
+      <div class="flex justify-center">
         <p class="mt-16 text-5xl font-bold">
-            Lorem ipsum dolor sit amet, <br><span class="text-purple-700">consectetur</span> adipiscing elit, <br> sed do         </p>
-    </div>
-    
-   </section>
+          Lorem ipsum dolor sit amet, <br /><span class="text-purple-700"
+            >consectetur</span
+          >
+          adipiscing elit, <br />
+          sed do
+        </p>
+      </div>
+    </section>
 
     <!-- Services -->
-     <section>
-        <div class="flex justify-center p-5 mt-8">
-            <h1 class="font-poppins font-extrabold text-5xl md:text-7xl text-purple-700 dark:text-white">
-                Services
+    <section id="Services" class="p-8 mt-12">
+      <div class="flex justify-center p-5 mt-8">
+        <h1
+          class="font-poppins font-extrabold text-5xl md:text-7xl text-purple-700 dark:text-white"
+        >
+          Services
+        </h1>
+      </div>
+      <div class="p-4 m-5 mt-8 flex justify-around">
+        <div>
+          <img
+            style="width: 19rem"
+            class="rounded-lg"
+            src="heroImage.svg"
+            alt=""
+          />
+          <center>
+            <h1 class="font-poppins font-extrabold text-purple-700">
+              LED DETAILS
             </h1>
+          </center>
         </div>
-        <div class="p-4 m-5 mt-8 flex justify-around">
-            <img style="width: 19rem;" class="rounded-lg" src="heroImage.svg" alt="">
-            <img style="width: 19rem;" class="rounded-lg" src="heroImage.svg" alt="">
-            <img style="width: 19rem;" class="rounded-lg" src="heroImage.svg" alt="">
 
-
-
+        <div>
+          <img
+            style="width: 19rem"
+            class="rounded-lg"
+            src="heroImage.svg"
+            alt=""
+          />
+          <center>
+            <h1 class="font-poppins font-extrabold text-purple-700">
+              LED DETAILS
+            </h1>
+          </center>
         </div>
-     </section>
-  <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
-</body>
+        <div>
+          <img
+            style="width: 19rem"
+            class="rounded-lg"
+            src="heroImage.svg"
+            alt=""
+          />
+          <center>
+            <h1 class="font-poppins font-extrabold text-purple-700">
+              LED DETAILS
+            </h1>
+          </center>
+        </div>
+      </div>
+    </section>
+
+    <!-- Previous Events -->
+
+    <!-- FAQs -->
+    <section id="FAQ" class="p-8 mt-12">
+      <h1
+        class="font-poppins font-extrabold text-5xl md:text-7xl text-center text-black"
+      >
+        FA<span class="text-purple-700 dark:text-white">Qs</span>
+      </h1>
+      <div class="max-w-xl mx-auto mt-8 space-y-4 font-bold">
+        <div class="border rounded-lg overflow-hidden shadow">
+          <button
+            class="flex justify-between px-8 w-full text-left p-4 bg-white focus:outline-none"
+            onclick="toggleFAQ(event)"
+          >
+            <span>How do I connect the LED screen?</span>
+            <span
+              class="float-right transform transition-transform duration-300"
+              ><img style="width: 20px" src="plus.svg" alt=""
+            /></span>
+          </button>
+          <div class="hidden p-4 bg-gray-100">
+            <p>Step-by-step guide to connect the LED screen.</p>
+          </div>
+        </div>
+        <div class="border rounded-lg overflow-hidden shadow mt-10">
+          <button
+            class="flex justify-between px-8 w-full text-left p-4 bg-white focus:outline-none"
+            onclick="toggleFAQ(event)"
+          >
+            <span>How do I connect the LED screen?</span>
+            <span
+              class="float-right transform transition-transform duration-300"
+              ><img style="width: 20px" src="plus.svg" alt=""
+            /></span>
+          </button>
+          <div class="hidden p-4 bg-gray-100">
+            <p>Step-by-step guide to connect the LED screen.</p>
+          </div>
+        </div>
+        <div class="border rounded-lg overflow-hidden shadow mt-10">
+          <button
+            class="flex justify-between px-8 w-full text-left p-4 bg-white focus:outline-none"
+            onclick="toggleFAQ(event)"
+          >
+            <span>Does Technician come to connect the screen?</span>
+            <span
+              class="float-right transform transition-transform duration-300"
+              ><img style="width: 20px" src="plus.svg" alt=""
+            /></span>
+          </button>
+          <div class="hidden p-4 bg-gray-100">
+            <p>No, content</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-black p-8 mt-12">
+      <div class="flex justify-around">
+        <div class="text-white list-none">
+          <ul class="flex-col gap-1 justify-center align-middle">
+            <li class="mt-8"><a href="#">About</a></li>
+            <li class="mt-4"><a href="#">Contact Us</a></li>
+            <li class="mt-4"><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <div class="flex-col">
+          <div class="">
+            <img style="height: 110px" src="logo-bg.png" alt="" />
+          </div>
+          <p class="text-white">Address</p>
+          <div class="flex space-x-2">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="30"
+                height="100"
+                viewBox="0 0 48 48"
+              >
+                <radialGradient
+                  id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1"
+                  cx="19.38"
+                  cy="42.035"
+                  r="44.899"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#fd5"></stop>
+                  <stop offset=".328" stop-color="#ff543f"></stop>
+                  <stop offset=".348" stop-color="#fc5245"></stop>
+                  <stop offset=".504" stop-color="#e64771"></stop>
+                  <stop offset=".643" stop-color="#d53e91"></stop>
+                  <stop offset=".761" stop-color="#cc39a4"></stop>
+                  <stop offset=".841" stop-color="#c837ab"></stop>
+                </radialGradient>
+                <path
+                  fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)"
+                  d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"
+                ></path>
+                <radialGradient
+                  id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2"
+                  cx="11.786"
+                  cy="5.54"
+                  r="29.813"
+                  gradientTransform="matrix(1 0 0 .6663 0 1.849)"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#4168c9"></stop>
+                  <stop
+                    offset=".999"
+                    stop-color="#4168c9"
+                    stop-opacity="0"
+                  ></stop>
+                </radialGradient>
+                <path
+                  fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)"
+                  d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"
+                ></path>
+                <path
+                  fill="#fff"
+                  d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"
+                ></path>
+                <circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle>
+                <path
+                  fill="#fff"
+                  d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"
+                ></path></svg
+            ></a>
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="30"
+                height="100"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill="#2dadfc"
+                  d="M8,0C3.582,0,0,3.582,0,8s3.582,8,8,8s8-3.582,8-8S12.418,0,8,0z"
+                ></path>
+                <path
+                  fill="#fff"
+                  d="M9.082,10.12h2.071l0.326-2.104H9.082V6.868c0-0.875,0.286-1.65,1.104-1.65h1.312V3.383	c-0.23-0.03-0.719-0.099-1.641-0.099c-1.924,0-3.054,1.016-3.054,3.334v1.398H4.824v2.104h1.979v5.781C7.196,15.961,7.592,16,8,16	c0.368,0,0.729-0.033,1.082-0.082V10.12z"
+                ></path></svg
+            ></a>
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="30"
+                height="100"
+                viewBox="0 0 48 48"
+              >
+                <path
+                  fill="#0288D1"
+                  d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"
+                ></path>
+                <path
+                  fill="#FFF"
+                  d="M12 19H17V36H12zM14.485 17h-.028C12.965 17 12 15.888 12 14.499 12 13.08 12.995 12 14.514 12c1.521 0 2.458 1.08 2.486 2.499C17 15.887 16.035 17 14.485 17zM36 36h-5v-9.099c0-2.198-1.225-3.698-3.192-3.698-1.501 0-2.313 1.012-2.707 1.99C24.957 25.543 25 26.511 25 27v9h-5V19h5v2.616C25.721 20.5 26.85 19 29.738 19c3.578 0 6.261 2.25 6.261 7.274L36 36 36 36z"
+                ></path></svg
+            ></a>
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="30"
+                height="100"
+                viewBox="0 0 48 48"
+              >
+                <linearGradient
+                  id="BiF7D16UlC0RZ_VqXJHnXa_oWiuH0jFiU0R_gr1"
+                  x1="9.858"
+                  x2="38.142"
+                  y1="9.858"
+                  y2="38.142"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop offset="0" stop-color="#33bef0"></stop>
+                  <stop offset="1" stop-color="#0a85d9"></stop>
+                </linearGradient>
+                <path
+                  fill="url(#BiF7D16UlC0RZ_VqXJHnXa_oWiuH0jFiU0R_gr1)"
+                  d="M44,24c0,11.045-8.955,20-20,20S4,35.045,4,24S12.955,4,24,4S44,12.955,44,24z"
+                ></path>
+                <path
+                  d="M10.119,23.466c8.155-3.695,17.733-7.704,19.208-8.284c3.252-1.279,4.67,0.028,4.448,2.113	c-0.273,2.555-1.567,9.99-2.363,15.317c-0.466,3.117-2.154,4.072-4.059,2.863c-1.445-0.917-6.413-4.17-7.72-5.282	c-0.891-0.758-1.512-1.608-0.88-2.474c0.185-0.253,0.658-0.763,0.921-1.017c1.319-1.278,1.141-1.553-0.454-0.412	c-0.19,0.136-1.292,0.935-1.745,1.237c-1.11,0.74-2.131,0.78-3.862,0.192c-1.416-0.481-2.776-0.852-3.634-1.223	C8.794,25.983,8.34,24.272,10.119,23.466z"
+                  opacity=".05"
+                ></path>
+                <path
+                  d="M10.836,23.591c7.572-3.385,16.884-7.264,18.246-7.813c3.264-1.318,4.465-0.536,4.114,2.011	c-0.326,2.358-1.483,9.654-2.294,14.545c-0.478,2.879-1.874,3.513-3.692,2.337c-1.139-0.734-5.723-3.754-6.835-4.633	c-0.86-0.679-1.751-1.463-0.71-2.598c0.348-0.379,2.27-2.234,3.707-3.614c0.833-0.801,0.536-1.196-0.469-0.508	c-1.843,1.263-4.858,3.262-5.396,3.625c-1.025,0.69-1.988,0.856-3.664,0.329c-1.321-0.416-2.597-0.819-3.262-1.078	C9.095,25.618,9.075,24.378,10.836,23.591z"
+                  opacity=".07"
+                ></path>
+                <path
+                  fill="#fff"
+                  d="M11.553,23.717c6.99-3.075,16.035-6.824,17.284-7.343c3.275-1.358,4.28-1.098,3.779,1.91	c-0.36,2.162-1.398,9.319-2.226,13.774c-0.491,2.642-1.593,2.955-3.325,1.812c-0.833-0.55-5.038-3.331-5.951-3.984	c-0.833-0.595-1.982-1.311-0.541-2.721c0.513-0.502,3.874-3.712,6.493-6.21c0.343-0.328-0.088-0.867-0.484-0.604	c-3.53,2.341-8.424,5.59-9.047,6.013c-0.941,0.639-1.845,0.932-3.467,0.466c-1.226-0.352-2.423-0.772-2.889-0.932	C9.384,25.282,9.81,24.484,11.553,23.717z"
+                ></path></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      let currentSlide = 0;
+      const slides = document.querySelectorAll(".carousel-item");
+      const totalSlides = slides.length;
+
+      function showSlide(index) {
+        slides.forEach((slide, i) => {
+          slide.style.transform = `translateX(${100 * (i - index)}%)`;
+        });
+      }
+
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        showSlide(currentSlide);
+      }
+
+      function prevSlide() {
+        currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+        showSlide(currentSlide);
+      }
+
+      function setSlide(index) {
+        currentSlide = index;
+        showSlide(currentSlide);
+      }
+
+      // Initialize carousel
+      showSlide(currentSlide);
+    </script>
+    <script>
+        function toggleFAQ(event) {
+            const button = event.currentTarget;
+            const content = button.nextElementSibling;
+            content.classList.toggle("hidden");
+            const icon = button.querySelector("img.toggle-icon");
+            icon.src = icon.src.includes("plus.svg") ? "minus.svg" : "plus.svg";
+          }
+    </script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+  </body>
 </html>
